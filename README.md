@@ -2,7 +2,7 @@
 
 1. Install geth.
 
-2. Download [genesis](https://github.com/Ekkel-AI-Private-Limited/setup-zenith-node/blob/main/zenith.json). Initialize geth:
+2. Download [zenith.json](https://github.com/Ekkel-AI-Private-Limited/setup-zenith-node/blob/main/zenith.json). Initialize geth:
 ```
 geth init zenith.json --datadir /var/zenith/.zenith
 ```
