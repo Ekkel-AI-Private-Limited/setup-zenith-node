@@ -2,7 +2,12 @@
 
 1. Install geth.
 
-2. config.toml
+2. Initialize geth:
+```
+geth init zenith.json --datadir /var/zenith/.zenith
+```
+
+2. Create config.toml
 
 ```
 cd /var
