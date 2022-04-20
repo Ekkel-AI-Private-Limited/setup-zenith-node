@@ -51,3 +51,14 @@ sudo systemctl restart zenith
 sudo systemctl enable zenith
 sudo systemctl status zenith
 ```
+
+5. To Run As a Docker Client:
+
+```sh
+docker build -t geth:v1 .
+```
+
+
+```sh
+docker run -it geth:v1
+```
