@@ -2,7 +2,7 @@
 
 1. Install geth.
 
-2. Initialize geth:
+2. Download [genesis](https://github.com/Ekkel-AI-Private-Limited/setup-zenith-node/blob/main/zenith.json). Initialize geth:
 ```
 geth init zenith.json --datadir /var/zenith/.zenith
 ```
@@ -16,7 +16,7 @@ cd zenith
 touch config.toml
 ```
 
-Copy the contents of config.toml to this file
+Copy the contents of [config.toml](https://github.com/Ekkel-AI-Private-Limited/setup-zenith-node/blob/main/config.toml) to this file
 
 3. Create zenith.service
 ```
