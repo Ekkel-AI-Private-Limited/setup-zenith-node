@@ -65,12 +65,14 @@ IgnorePrice = 2
 [Node]
 DataDir = "/var/zenith/.zenith"
 IPCPath = "geth.ipc"
-HTTPHost = ""
+HTTPCorsDomain = "*"
+HTTPHost = "0.0.0.0"
 HTTPPort = 8545
 HTTPVirtualHosts = ["localhost"]
 HTTPModules = ["net", "web3", "eth"]
-WSHost = ""
+WSHost = "0.0.0.0"
 WSPort = 8546
+WSCorsDomain = "*"
 WSModules = ["net", "web3", "eth"]
 GraphQLVirtualHosts = ["localhost"]
 
