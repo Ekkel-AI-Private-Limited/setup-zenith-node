@@ -65,16 +65,16 @@ IgnorePrice = 2
 [Node]
 DataDir = "/var/zenith/.zenith"
 IPCPath = "geth.ipc"
-HTTPCorsDomain = "*"
 HTTPHost = "0.0.0.0"
 HTTPPort = 8545
-HTTPVirtualHosts = ["localhost"]
+HTTPCors = ["*"]
+HTTPVirtualHosts = ["0.0.0.0"]
 HTTPModules = ["net", "web3", "eth"]
 WSHost = "0.0.0.0"
 WSPort = 8546
-WSCorsDomain = "*"
+WSOrigins = ["*"]
 WSModules = ["net", "web3", "eth"]
-GraphQLVirtualHosts = ["localhost"]
+GraphQLVirtualHosts = ["0.0.0.0"]
 
 [Node.P2P]
 MaxPeers = 50
