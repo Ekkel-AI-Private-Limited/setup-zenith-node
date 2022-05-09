@@ -74,7 +74,6 @@ WSHost = "0.0.0.0"
 WSPort = 8546
 WSOrigins = ["*"]
 WSModules = ["net", "web3", "eth"]
-GraphQLVirtualHosts = ["0.0.0.0"]
 
 [Node.P2P]
 MaxPeers = 50
